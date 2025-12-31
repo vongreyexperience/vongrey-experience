@@ -1,0 +1,22 @@
+:root{
+  --bg:#0b0b0c;
+  --text:#f2f2f2;
+  --muted:#b7b7b7;
+  --line:#242427;
+  --accent:#d6c7a1;
+}
+
+body{
+  margin:0;
+  font-family: system-ui, sans-serif;
+  background:#0b0b0c;
+  color:var(--text);
+}
+
+.wrap{max-width:1050px;margin:0 auto;padding:40px 20px}
+.nav{display:flex;justify-content:space-between;border-bottom:1px solid var(--line);padding:16px 20px}
+.section{padding:32px 0;border-top:1px solid var(--line)}
+.manifesto-sub{color:var(--muted);text-transform:uppercase;font-size:12px;margin-bottom:20px}
+.manifesto-block{max-width:780px;margin-bottom:20px}
+.manifesto-quote{border-left:2px solid var(--accent);padding-left:16px;margin-top:32px}
+.footer{text-align:center;color:var(--muted);padding:20px 0}

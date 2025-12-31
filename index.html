@@ -1,170 +1,107 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Vongrey Experience</title>
-<style>
-  :root{--bg:#000;--gold:#c9a94b;--card:#111;--muted:#bdb6a8;--white:#fff}
-  body{margin:0;background:var(--bg);color:var(--muted);font-family:Inter,Arial,sans-serif}
-  header{padding:40px 20px;text-align:center;border-bottom:1px solid #111}
-  .badge{width:70px;height:70px;margin:auto;background:var(--gold);color:#000;font-size:40px;font-weight:700;display:flex;align-items:center;justify-content:center;border-radius:12px}
-  h1{color:var(--white);margin:12px 0 2px}
-  nav{margin-top:20px;display:flex;justify-content:center;gap:24px}
-  nav a{color:var(--gold);text-decoration:none;font-weight:600}
-  .section{padding:60px 20px;max-width:900px;margin:auto;border-bottom:1px solid #111}
-  h2{color:var(--white);border-left:4px solid var(--gold);padding-left:12px}
-  .card{background:#0f0f0f;padding:20px;border-radius:10px;border:1px solid #1c1c1c;margin-top:20px}
-  .event{margin-bottom:20px}
-  footer{text-align:center;padding:30px;color:#777}
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vongrey Experience</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<header style="position:relative;overflow:hidden;padding:0;border-bottom:1px solid #111;">
-  <video autoplay muted loop playsinline style="width:100%;height:100%;object-fit:cover;position:absolute;top:0;left:0;opacity:0.35;">
-    <source src="https://youtu.be/OVC_9PufoXw?list=RDOVC_9PufoXw" type="video/mp4" />
-  </video>
-  <div style="position:relative;z-index:2;padding:60px 20px;text-align:center;">
-    <div class="badge">V</div>
-    <h1>Vongrey Experience</h1>
-    <div style="color:var(--gold);">Selected. Connected. Vongrey.</div>
-    <nav style="margin-top:20px;display:flex;justify-content:center;gap:24px;">
+  <header class="nav">
+    <div class="brand">Vongrey Experience</div>
+    <nav>
       <a href="#about">About</a>
       <a href="#events">Events</a>
       <a href="#music">Music</a>
       <a href="#contact">Contact</a>
     </nav>
-  </div>
-</header>
+  </header>
 
-<section id="about" class="section">
-  <h2>About</h2>
-  <p><strong>Vongrey Experience</strong> is an exclusive, invite-only entertainment and cultural movement founded in Ghana. The brand hosts private events, curated nightlife experiences, and cultural showcases designed to promote African—especially Ghanaian—culture to the world. With an original base in Ghana and ambitions to expand across major cities globally, Vongrey Experience blends exclusivity, entertainment, and cultural identity into a unique, high-energy brand.</p>
-  <p>The brand operates on Instagram as <strong>@vongrey.experience</strong> and on X as <strong>@vongreyclub</strong>.</p>
+  <main class="wrap">
+    <section class="hero">
+      <p class="kicker">Selected. Connected. Vongrey.</p>
+      <h1>Invite-only culture & nightlife experiences from Ghana to the world.</h1>
+      <p class="sub">
+        Private events, curated nights, and cultural showcases—built with taste, energy, and exclusivity.
+      </p>
 
-  <h3 style="color:var(--white);margin-top:25px;">Founding & Origins</h3>
-  <p>Vongrey Experience was created in Ghana with the vision of elevating African culture through modern entertainment. The brand began as a creative concept built on atmosphere, aesthetic expression, and community energy. Its roots in Ghanaian culture continue to shape its identity, themes, and mission as it grows into an international movement.</p>
+      <div class="cta">
+        <a class="btn" href="https://forms.gle/QfNEtnbEuct9RoKJ8" target="_blank">Join / RSVP</a>
+        <a class="btn ghost" href="https://open.spotify.com/playlist/2CMMcqG5GPU6CVW8Svrp2s" target="_blank">Listen on Spotify</a>
+      </div>
+    </section>
 
-  <h3 style="color:var(--white);margin-top:25px;">Global Movement</h3>
-  <p>Vongrey Experience plans to expand from Ghana to every major city in the world, bringing African creativity, nightlife, community, and cultural expression to a global audience.</p>
-  <p>The movement aims to:</p>
-  <ul>
-    <li>Showcase African talent, energy, and identity</li>
-    <li>Bring Ghanaian culture into global nightlife and entertainment spaces</li>
-    <li>Inspire unity and cultural pride through immersive events</li>
-    <li>Create a worldwide community built on authenticity and creative expression</li>
-  </ul>
-  <p>Every stop in a new city carries the original Ghanaian energy at the heart of the brand.</p>
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>
+        Vongrey Experience is an exclusive, invite-only entertainment and cultural movement founded in Ghana.
+        We host private events, curated nightlife, and cultural showcases to promote African—especially Ghanaian—culture globally.
+      </p>
+    </section>
 
-  <h3 style="color:var(--white);margin-top:25px;">Invite-Only Philosophy</h3>
-  <p>A core principle of Vongrey Experience is its strict exclusivity:</p>
-  <p><strong>Money can’t buy entry.<br>
-  Influence can’t buy entry.<br>
-  You don’t just add anybody on board.</strong></p>
-  <p>Invitations are given only to individuals who naturally reflect the brand’s culture, authenticity, and vibe. This ensures every event maintains a premium, controlled atmosphere shaped by genuine energy rather than status or payment.</p>
+    <section id="the-vongrey-way" class="section manifesto">
+      <h2>🧵 The Vongrey Way</h2>
+      <p class="manifesto-sub">Inspired by the Loro Piana ethos</p>
 
-  <h3 style="color:var(--white);margin-top:25px;">Mission & Purpose</h3>
-  <p>Vongrey Experience exists to:</p>
-  <ul>
-    <li>Promote African & Ghanaian culture on a global scale</li>
-    <li>Deliver private, high-quality entertainment experiences</li>
-    <li>Build a selective community driven by authenticity</li>
-    <li>Merge music, atmosphere, and storytelling into cultural expression</li>
-    <li>Create a global movement based on experiences that money cannot buy</li>
-  </ul>
+      <div class="manifesto-block">
+        <h3>Quiet Luxury, Not Loud Hype</h3>
+        <p>Let the design breathe. Use space, minimal text, and premium visuals. Speak with calm confidence. Elegance over excess.</p>
+      </div>
 
-  <h3 style="color:var(--white);margin-top:25px;">Events & Experiences</h3>
-  <p>The brand is known for:</p>
-  <ul>
-    <li>Private, invite-only parties</li>
-    <li>Pop-up nightlife events in exclusive locations</li>
-    <li>Cultural and creative showcases</li>
-    <li>High-energy, mood-driven atmospheres</li>
-    <li>Cinematic, aesthetic storytelling through visuals and music</li>
-  </ul>
-  <p>Each event is curated to reflect both modern entertainment and African cultural influence.</p>
+      <div class="manifesto-block">
+        <h3>Details Are the Brand</h3>
+        <p>Precision in font choices, alignment, and transitions. Storytelling through textures, symbolism, and cultural codes.</p>
+      </div>
 
-  <h3 style="color:var(--white);margin-top:25px;">Community</h3>
-  <p>The Vongrey community is intentionally selective and built on:</p>
-  <ul>
-    <li>Authentic personalities</li>
-    <li>Respect for culture and creativity</li>
-    <li>High-energy participation</li>
-    <li>Genuine alignment with the brand’s mission</li>
-  </ul>
-  <p>Members are chosen by the brand—not by applications, money, or clout.</p>
+      <div class="manifesto-block">
+        <h3>Mystery Over Marketing</h3>
+        <p>You are not selling a product. You are protecting a feeling. Aesthetic over information.</p>
+      </div>
 
-  <h3 style="color:var(--white);margin-top:40px;">Timeline</h3>
-  <div class="card">
-    <ul style="list-style:none;padding:0;line-height:1.8;">
-      <li><strong style="color:var(--gold);">Origins (Ghana)</strong> — The concept begins in Accra with a vision to elevate African culture through curated experiences.</li>
-      <li><strong style="color:var(--gold);">Growth (Local Expansion)</strong> — Vongrey solidifies its identity with signature invite‑only events and cultural showcases.</li>
-      <li><strong style="color:var(--gold);">Expansion (Global)</strong> — The movement prepares to activate in major cities worldwide, carrying Ghana’s creative energy everywhere.</li>
-    </ul>
-  </div>
+      <div class="manifesto-block">
+        <h3>Craftsmanship in Culture</h3>
+        <p>Vongrey honors Ghanaian creative heritage through sound, visuals, fabric, and form. Traditional inspiration. Modern execution.</p>
+      </div>
 
-  <h3 style="color:var(--white);margin-top:40px;">Founders</h3>
-  <div class="card">
-    <p>The Vongrey Experience was founded by a collective of Ghanaian creatives driven by culture, music, design, and community energy. The founders operate anonymously to keep the spotlight on the movement—not individuals.</p>
-  </div>
+      <div class="manifesto-block">
+        <h3>Invitation-Only, By Design</h3>
+        <p>Money cannot buy this. Everything should feel unavailable to the unaligned.</p>
+      </div>
 
-  <h3 style="color:var(--white);margin-top:40px;">Brand Values / Pillars</h3>
-  <div class="card">
-    <ul style="list-style:none;padding:0;line-height:1.8;">
-      <li><strong style="color:var(--gold);">Authenticity</strong> — True energy over popularity.</li>
-      <li><strong style="color:var(--gold);">Culture</strong> — African identity at the center of every experience.</li>
-      <li><strong style="color:var(--gold);">Exclusivity</strong> — Invitation based on alignment, not status.</li>
-      <li><strong style="color:var(--gold);">Elegance</strong> — Aesthetic, mood, and presentation at a premium level.</li>
-      <li><strong style="color:var(--gold);">Global Vision</strong> — Taking Ghana to the world through entertainment and culture.</li>
-    </ul>
-  </div>
+      <blockquote class="manifesto-quote">
+        We do not announce. We arrive.<br>
+        We do not explain. We express.<br>
+        We do not market. We move.
+        <span>
+          Vongrey is not for the curious.<br>
+          It’s for the connected.<br>
+          <strong>Selected. Connected. Vongrey.</strong>
+        </span>
+      </blockquote>
+    </section>
 
-</section>
-<section id="events" class="section">
-  <h2>Events</h2>
+    <section id="events" class="section">
+      <h2>Events</h2>
+      <p>Private events. Curated nights. Cultural showcases.</p>
+    </section>
 
-  <div class="card event">
-    <h3 style="color:var(--white);">Sunset Session — Accra</h3>
-    <p>Golden-hour rooftop experience blending curated Amapiano, refined social energy, and a selected guestlist.</p>
-  </div>
+    <section id="music" class="section">
+      <h2>Music</h2>
+      <a class="link" href="https://open.spotify.com/playlist/2CMMcqG5GPU6CVW8Svrp2s" target="_blank">Open Spotify Playlist</a>
+    </section>
 
-  <div class="card event">
-    <h3 style="color:var(--white);">Rooftop Night — Accra</h3>
-    <p>Strictly invite-only evening crafted with deep grooves, premium atmosphere, and Vongrey-standard presentation.</p>
-  </div>
-</section>
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <a class="link" href="https://forms.gle/QfNEtnbEuct9RoKJ8" target="_blank">Contact / RSVP Form</a>
+    </section>
 
-<section id="music" class="section">
-  <h2>Music</h2>
-  <p>The Vongrey sound blends Amapiano, Afro-house, Afro-fusion, and global rhythms. Our sonic identity moves from sunset warmth to nighttime elevation.</p>
+    <footer class="footer">
+      © <span id="y"></span> Vongrey Experience
+    </footer>
+  </main>
 
-  <div class="card">
-    <h3 style="color:var(--white);">Featured Tracks</h3>
-    <ul>
-      <li>Eningi — Kabza De Small (South Africa)</li>
-      <li>Mnike — Tyler ICU (South Africa)</li>
-      <li>Yebo Lapho — Felo Le Tee (South Africa)</li>
-      <li>Imithandazo — Kabza & Mthunzi (South Africa)</li>
-      <li>Terminator — King Promise (Ghana)</li>
-      <li>Soweto — Victony (Nigeria)</li>
-      <li>Calm Down — Rema (Nigeria)</li>
-      <li>Couper Decaler — DJ Arafat (Ivory Coast)</li>
-    </ul>
-    <p style="margin-top:15px;"><a href="https://open.spotify.com/playlist/2CMMcqG5GPU6CVW8Svrp2s" target="_blank" style="color:var(--gold);font-weight:600;">🎧 Listen on Spotify – Vongrey Experience Playlist</a></p>
-  </div>
-</section>
-
-<section id="contact" class="section">
-  <h2>Contact</h2>
-  <p><strong>Email:</strong> vongrey.experience@gmail.com</p>
-  <p><strong>Instagram:</strong> @vongrey.experience</p>
-  <p><strong>X:</strong> @vongreyclub</p>
-  <p>Made in Ghana — Accra Based</p>
-</section>
-
-<footer>
-  © 2025 Vongrey Experience — Selected. Connected. Vongrey.
-</footer>
-
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
